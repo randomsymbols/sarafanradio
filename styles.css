@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+#lang {
+    float: right;
+}
+
+#lang a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#slogan {
+    font-style: italic;
+}
+
+h2 {
+    padding-bottom: 1rem;
+}
+
+p {
+    max-width: 35rem;
+}
+
+#client_server {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#client_server img {
+    padding: 1rem;
+}
+
+#peer_to_peer {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#peer_to_peer img {
+    padding: 1rem;
+    width: 48%;
+}
+
+#give {
+    word-wrap: break-word;
+}
+
+#bunny {
+    width: 12rem;
+    margin-bottom: 1rem;
+}
+
+#good_deeds li {
+    list-style-type: none;
+    margin-left: -1rem;
+}
+
+#good_deeds_email {
+    max-width: 17rem;
+    margin-top: 0.5rem;
+}
+
+#good_deeds_submit_btn {
+    max-width: 17rem;
+}
+
+#feedback {
+    max-width: 24rem;
+}
+
+.btn {
+    width: 100% !important;
+}
+
+.btn-outline-light:hover {
+    background-color: #46a049 !important;
+    color: white !important;
+}
+
+#feedback_btn {
+    max-width: 12rem;
+}
+
+#feedback_close_sym {
+    font-family: serif;
+}
+
+#feedback_header {
+    margin-top: 1rem;
+}
+
+#feedback_body {
+    display: none;
+}
+
+#feedback_form {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footer {
+    background-color: #4CAF50;
+    color: #fff;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+}

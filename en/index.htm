@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sarafan Radio</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <script src="../jquery.js"></script>
+    <script src="../scripts.js"></script>
+    <link rel="icon" type="image/png" href="../favicon.png"/>
+</head>
+<body>
+<div id="header">
+    <h1>Sarafan Radio</h1>
+    <h5 id="slogan">Keep your private life private!</h5>
+</div>
+<div class="container">
+    <h2>What is Sarafan Radio?</h2>
+    <p>Sarafan Radio is a privacy-oriented, <a href="https://en.wikipedia.org/wiki/Peer-to-peer" target="_blank">peer-to-peer</a>,
+        <a href="https://en.wikipedia.org/wiki/Distributed_database" target="_blank">distributed</a>, <a
+                href="https://en.wikipedia.org/wiki/Open-source_software" target="_blank">open source</a>, <a
+                href="https://en.wikipedia.org/wiki/Crowdfunding" target="_blank">crowdfunded</a>, ads-free social
+        network.</p>
+    <p>It allows you to stay in contact and share
+        with your friends without exposing your contacts, conversations, photos and videos to a third party.</p>
+    <p>There is no central database, all that you share is stored on your and your friend's computer/phone only.</p>
+    <h2>Why another social network?</h2>
+    <p>Sarafan Radio was conceived as an alternative to Facebook but with personal privacy and freedom of speech in
+        mind.</p>
+    <p>It allows to do the same things that Facebook does - share posts, pictures, video, chat and call from your phone
+        or
+        computer, but makes it impossible for the social network owner to control the content you share or even see it.
+    </p>
+    <h2>How it works</h2>
+    <p>
+        Sarafan Radio uses <a href="https://en.wikipedia.org/wiki/Peer-to-peer" target="_blank">peer-to-peer</a>
+        distributed application architecture that keeps the data you send on your and your friend's device only.
+    </p>
+    <p>
+        The data is never stored on any intermediate server and <a
+            href="https://en.wikipedia.org/wiki/Point_to_Point_Encryption" target="_blank">point-to-point</a> encrypted.
+    </p>
+    <p>
+        It makes the social content to belong only to you.
+    </p>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card" id="client_server">
+                <img class="card-img-top img-fluid" src="../client-server.svg" alt="Client-server">
+                <div class="card-body">
+                    <h5 class="card-title">Client-server social network</h5>
+                    <p class="card-text">All the data Alice is sending to Bob is
+                        going through a central sever. The owner of the server is able to access
+                        the data.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card" id="peer_to_peer">
+                <img class="card-img-top img-fluid mx-auto text-center" src="../peer-to-peer.svg" alt="Peer-to-peer">
+                <div class="card-body">
+                    <h5 class="card-title">Peer-to-peer social network</h5>
+                    <p class="card-text">Alice sends data directly to Bob. Only they can access it.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>Volunteer</h2>
+    <p>This software is in project / ideation stage.</p>
+    <p>We need your help to go live!</p>
+    <img src="../bunny.svg" alt="Cute bunny" id="bunny">
+    <p>Give us just 1$ now to support the development!</p>
+    <form name="ican" method="POST" netlify>
+        <ul id="give">
+            <li>Cryptocurrency
+                <ul>
+                    <li><span>Bitcoin (BTC): 332fDhGFWMRzmutXfNm1WLY9jpP1ov2o1C</span></li>
+                    <li><span>Ethereum Classic (ETC): 0x94495999Ba62398147BBbb3e2faF9C4e6Ce62c2F</span></li>
+                    <li><span>Lightcoin (LTC): LaaW2iYCrvBP76Ks7MxxXhj1o3ci3dbQzs</span></li>
+                </ul>
+            </li>
+            <li>Bank card
+                <ul>
+                    <li>
+                        <a href="https://liberapay.com/sarafanradio/donate" target="_blank">Liberapay</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="https://www.patreon.com/sarafanradio" target="_blank">Patreon</a>
+                    </li>
+                </ul>
+            </li>
+            <li>Good deeds
+                <ul id="good_deeds">
+                    <li>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="programmer_android"
+                                   name="programmer_android">
+                            <label class="form-check-label" for="programmer_android">I can actually code it for
+                                Android</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="programmer_ios" name="programmer_ios">
+                            <label class="form-check-label" for="programmer_ios">I can actually code it for iOS</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="programmer_nix" name="programmer_nix">
+                            <label class="form-check-label" for="programmer_nix">I can actually code it for Nix</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="programmer_windows"
+                                   name="programmer_windows">
+                            <label class="form-check-label" for="programmer_windows">I can actually code it for
+                                Windows</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="system_architect"
+                                   name="system_architect">
+                            <label class="form-check-label" for="system_architect">I am a system architect and I can
+                                help</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="business_analyst"
+                                   name="business_analyst">
+                            <label class="form-check-label" for="business_analyst">I am a business analyst and I can
+                                help</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="ux_designer" name="ux_designer">
+                            <label class="form-check-label" for="ux_designer">I can UX-design it</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="tester" name="tester">
+                            <label class="form-check-label" for="tester">I can test it</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="app_security" name="app_security">
+                            <label class="form-check-label" for="app_security">You'll need net/app security design, I
+                                can help</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="translator" name="translator">
+                            <label class="form-check-label" for="translator">I can translate this page</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="web_designer" name="web_designer">
+                            <label class="form-check-label" for="web_designer">You site is ugly, you need me</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="web_developer" name="web_developer">
+                            <label class="form-check-label" for="web_developer">You site's functionality kills me, I can
+                                help</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="sys_admin" name="sys_admin">
+                            <label class="form-check-label" for="sys_admin">You don't even have a mail server, I can
+                                help</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-group">
+                            <input id="good_deeds_email" required name="email" type="email" class="form-control"
+                                   placeholder="Your email">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-group">
+                            <button disabled id="good_deeds_submit_btn" type="submit" class="btn btn-primary btn-lg">
+                                Yes, I can
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </form>
+</div>
+<div id="footer">
+    <div id="feedback">
+        <button id="feedback_btn" type="button" class="btn btn-outline-light btn-lg">Feedback</button>
+        <div id="feedback_body">
+            <button id="feedback_close_btn" type="button" class="btn btn-outline-light btn-lg">Close <span
+                    id="feedback_close_sym">&#10006;</span></button>
+            <h5 id="feedback_header">Feedback</h5>
+            <form id="feedback_form" name="feedback" method="POST" netlify>
+                <div class="form-group">
+                    <textarea id="feedback_text" class="form-control" name="text" placeholder="Your feedback" autofocus
+                              required rows="7"></textarea>
+                </div>
+                <div class="form-group">
+                    <input name="email" type="email" class="form-control" placeholder="Your email (optional)">
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-outline-light btn-lg">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
